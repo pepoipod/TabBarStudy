@@ -9,6 +9,8 @@ import Foundation
 class TodoListViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     @IBOutlet weak var tableView: UITableView!
 
+    let SHOW_DETAIL_SEGUE_ID = "showDetail"
+
     let todoList = [
         TODO(title: "牛乳を買う", isDone: false),
         TODO(title: "掃除をする", isDone: true),
@@ -25,7 +27,7 @@ class TodoListViewController: UIViewController, UITableViewDelegate, UITableView
     }
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "showDetail" {
+        if segue.identifier == SHOW_DETAIL_SEGUE_ID {
             if let indexPath = tableView.indexPathForSelectedRow {
                 let todo = todoList[indexPath.row]
                 let viewController = segue.destination as! TodoViewController
@@ -56,6 +58,8 @@ class TodoListViewController: UIViewController, UITableViewDelegate, UITableView
     }
 
     func tableView(_ table: UITableView,didSelectRowAt indexPath: IndexPath) {
-        performSegue(withIdentifier: "showDetail", sender: nil)
+        if todoList.indices.contains(indexPath.row) {
+            performSegue(withIdentifier: SHOW_DETAIL_SEGUE_ID, sender: nil)
+        }
     }
 }
