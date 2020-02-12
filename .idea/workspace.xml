@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9b9ec550-a710-4b10-8fc5-74e861e73b22" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/TabBarStudy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/xcode.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TabBarStudy.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TabBarStudy.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TabBarStudy.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TabBarStudy/AppDelegate.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TabBarStudy/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TabBarStudy/Assets.xcassets/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TabBarStudy/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TabBarStudy/Base.lproj/Main.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TabBarStudy/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TabBarStudy/SceneDelegate.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TabBarStudy/Todo.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TabBarStudy/TodoListViewCell.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TabBarStudy/TodoListViewCell.xib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TabBarStudy/TodoListViewController.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TabBarStudy/TodoViewController.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TabBarStudy/ViewController.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TabBarStudyTests/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TabBarStudyTests/TabBarStudyTests.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TabBarStudyUITests/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TabBarStudyUITests/TabBarStudyUITests.swift" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_94B55A6D-1B27-46C4-A9D9-263FB8ACC29C" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1Xgt0x1ofiegu3GMHOXeUozfZIA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="OBJC.PRESERVED_TARGET_SELECTION" value="TabBarStudy" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration name="TabBarStudy" type="AppleRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TabBarStudy" TARGET_NAME="TabBarStudy" CONFIG_NAME="Debug" SCHEME_NAME="TabBarStudy" IS_LOCATION_SIMULATION_ALLOWED="true" APPLICATION_LANGUAGE="IDELaunchSchemeLanguageUseSystemLanguage" APPLICATION_REGION="" RUN_TARGET_PROJECT_NAME="TabBarStudy" RUN_TARGET_NAME="TabBarStudy" MAKE_ACTIVE="TRUE" SHOULD_DEBUG_EXTENSIONS="false">
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <embedded_app_extension_list />
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9b9ec550-a710-4b10-8fc5-74e861e73b22" name="Default Changelist" comment="" />
+      <created>1581479345711</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581479345711</updated>
+      <workItem from="1581479347732" duration="6077000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="595" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581486164450">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="595" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1581486164450" />
+    <state x="522" y="240" width="670" height="676" key="search.everywhere.popup" timestamp="1581488508604">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="522" y="240" width="670" height="676" key="search.everywhere.popup/-1920.23.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1581488508604" />
+  </component>
+</project>
