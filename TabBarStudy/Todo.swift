@@ -14,3 +14,9 @@ struct TODO {
         self.isDone = isDone
     }
 }
+
+extension TODO {
+    var isDoneStr: String {
+        isDone ? "完了" : "未完了"
+    }
+}

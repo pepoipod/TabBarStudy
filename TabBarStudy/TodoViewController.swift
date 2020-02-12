@@ -19,7 +19,7 @@ class TodoViewController: UIViewController {
             }
 
             if let label = isDoneLabel {
-                label.text = todo.isDone ? "完了" : "未完了"
+                label.text = todo.isDoneStr
             }
         }
     }

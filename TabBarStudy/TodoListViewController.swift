@@ -10,6 +10,7 @@ class TodoListViewController: UIViewController, UITableViewDelegate, UITableView
     @IBOutlet weak var tableView: UITableView!
 
     let SHOW_DETAIL_SEGUE_ID = "showDetail"
+    let CELL_ID = "cell"
 
     let todoList = [
         TODO(title: "牛乳を買う", isDone: false),
@@ -19,7 +20,7 @@ class TodoListViewController: UIViewController, UITableViewDelegate, UITableView
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.register(UINib(nibName: "TodoListViewCell", bundle: nil), forCellReuseIdentifier: "cell")
+        tableView.register(UINib(nibName: "TodoListViewCell", bundle: nil), forCellReuseIdentifier: CELL_ID)
     }
 
     override func didReceiveMemoryWarning() {
@@ -43,7 +44,7 @@ class TodoListViewController: UIViewController, UITableViewDelegate, UITableView
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! TodoListViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: CELL_ID, for: indexPath) as! TodoListViewCell
 
         guard case todoList.indices = indexPath.row else {
             return cell
@@ -52,7 +53,7 @@ class TodoListViewController: UIViewController, UITableViewDelegate, UITableView
         let todo = todoList[indexPath.row]
 
         cell.titleLabel.text = todo.title
-        cell.isDoneLabel.text = todo.isDone ? "完了" : "未完了"
+        cell.isDoneLabel.text = todo.isDoneStr
 
         return cell
     }
